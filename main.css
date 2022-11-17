@@ -4,8 +4,6 @@ body {
 }
 
 
-
-
 @font-face {
     font-family: winona;
     src: url("./fonts/Willona_Script.ttf");
@@ -144,13 +142,10 @@ body {
 }
 
 
-
-
 .before-after__container {
     display: flex;
     justify-content: center;
 }
-
 
 
 .test {
@@ -245,6 +240,8 @@ body {
 .testimonials {
     display: grid;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .services {
@@ -262,13 +259,13 @@ body {
 }
 
 
-.services__container{
+.services__container {
     padding-top: 50px;
     justify-content: center;
     display: flex;
 }
 
-.before-after__container{
+.before-after__container {
     padding-top: 50px;
     width: 90%;
 }
@@ -292,14 +289,14 @@ body {
     justify-content: space-evenly;
 }
 
-.images__title1{
+.images__title1 {
     text-align: center;
     font-family: circe;
     font-weight: bold;
     margin: 5px;
 }
 
-.images__title2{
+.images__title2 {
     text-align: center;
     font-family: circe;
     font-weight: bold;
@@ -354,7 +351,6 @@ body {
     display: flex;
     justify-content: center;
     font-size: 128px;
-    margin: 5%;
     font-family: winona;
 }
 
@@ -450,13 +446,12 @@ body {
 }
 
 
-
 @media screen and (max-width: 360px) {
-    .poster{
+    .poster {
         height: 400px;
     }
 
-    .description{
+    .description {
         font-size: 10px;
         width: 30%;
     }
@@ -468,7 +463,6 @@ body {
     .general__services {
         padding-top: unset;
     }
-
 
 
     .testimonials__el1 {
@@ -519,10 +513,14 @@ body {
 }
 
 
-
 @media screen and (max-width: 600px) {
 
-    .services__title{
+    .testimonials {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .services__title {
         font-size: 64px;
         height: 100px;
         align-items: end;
@@ -641,7 +639,6 @@ body {
     }
 
 
-
     .navigation__elems {
         margin: unset;
         height: 50px;
@@ -665,7 +662,6 @@ body {
     }
 
 
-
     .why-us__title {
         font-size: 64px;
     }
@@ -674,15 +670,17 @@ body {
         font-size: 12px;
     }
 
-    .testimonials__el1{
+    .testimonials__el1 {
         height: 350px;
         width: 300px;
     }
-    .testimonials__el2{
+
+    .testimonials__el2 {
         height: 350px;
         width: 300px;
     }
-    .testimonials__el3{
+
+    .testimonials__el3 {
         height: 350px;
         width: 300px;
     }
