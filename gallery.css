@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: winona;
+    src: url("./fonts/Willona_Script.ttf");
+}
+
+
+@font-face {
+    font-family: circe;
+    src: url("./fonts/Circe-Regular.ttf");
+}
+
+.navigation {
+    display: flex;
+    position: relative;
+    height: 90px;
+}
+
+.navigation__elems {
+    color: #43DDFF;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    font-family: circe;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: winona;
+    font-size: 128px;
+    margin: 50px;
+    color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.info {
+    margin: 30px;
+    background: #DCF5F5;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.general {
+    columns: 4;
+    column-gaps: 16px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.grid-images {
+    display: inline-block;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+
+.footer {
+    background: #00B2FF;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+.footer__name {
+    width: 50%;
+    padding-left: 5%;
+    font-size: 16px;
+    color: white;
+    font-family: circe;
+}
+
+.footer__help {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    width: 50%;
+    padding-left: 5%;
+    font-size: 16px;
+    color: white;
+    font-family: circe;
+}
+
+@media (max-width: 1200px) {
+    .general {
+        columns: 3;
+    }
+}
+
+@media (max-width: 900px) {
+    .general {
+        columns: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigation__elems {
+        font-size: 14px;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .title {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer__help {
+        font-size: 12px;
+    }
+
+    .footer__name {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__help {
+        font-size: 10px;
+    }
+
+    .footer__name {
+        font-size: 10px;
+    }
+}
