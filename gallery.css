@@ -14,6 +14,40 @@ body {
     src: url("./fonts/Circe-Regular.ttf");
 }
 
+@font-face {
+    font-family: afrah-light;
+    src: url("./fonts/Afrah-Light.ttf");
+}
+
+@font-face {
+    font-family: abha-reg;
+    src: url("./fonts/AbhayaLibre-Regular.ttf");
+}
+
+.grid-images_green {
+    height: 350px;
+}
+
+.grid-images_white {
+    height: 344px;
+}
+
+.grid-images_before-after {
+    height: 200px;
+}
+
+.grid-images_gray {
+    height: 340px;
+}
+
+.grid-images_cabinets {
+    height: 360px;
+}
+
+.grid-images_rest {
+    height: 300px;
+}
+
 .navigation {
     display: flex;
     position: relative;
@@ -21,7 +55,7 @@ body {
 }
 
 .navigation__elems {
-    color: #43DDFF;
+    color: #395186;
     display: flex;
     width: 50%;
     justify-content: space-evenly;
@@ -33,28 +67,66 @@ body {
 .title {
     display: flex;
     justify-content: center;
-    font-family: winona;
-    font-size: 128px;
+    font-family: afrah-light;
+    color: #AAC9D1;
+    font-size: 64px;
     margin: 50px;
-    color: yellow;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    /*-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;*/
 }
 
 .info {
     margin: 30px;
-    background: #DCF5F5;
     padding: 10px;
     border-radius: 20px;
 }
 
-.general {
-    columns: 4;
-    column-gaps: 16px;
+.general__item {
+    overflow: hidden;
+    height: 300px;
+    padding: 10px;
+}
+
+.general__item_xl {
+    height: 500px;
+}
+
+
+.general__item_xxl {
+    height: 600px;
+}
+
+
+.general__item_l {
+    height: 450px;
+}
+
+.general__item_m {
+    height: 400px;
+}
+
+.general__item_s {
+    height: 350px;
+}
+
+
+.general__img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.general__container {
+    display: flex
+}
+
+.general__col {
+    width: 25%;
 }
 
 img {
-    width: 100%;
     border-radius: 5px;
 }
 
@@ -66,21 +138,49 @@ img {
 
 
 .footer {
-    background: #00B2FF;
+    background: #395186;
     height: 70px;
     align-items: center;
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .footer__name {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 20px;
     font-size: 16px;
     color: white;
     font-family: circe;
 }
 
+
 .footer__help {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: white;
+    font-family: circe;
+}
+
+
+/*.footer {
+    background: #395186;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}*/
+
+/*.footer__name {
+    width: 50%;
+    padding-left: 5%;
+    font-size: 16px;
+    color: white;
+    font-family: circe;
+}*/
+
+/*.footer__help {
     display: flex;
     justify-content: flex-end;
     padding-right: 5%;
@@ -89,18 +189,28 @@ img {
     font-size: 16px;
     color: white;
     font-family: circe;
-}
+}*/
 
 @media (max-width: 1200px) {
-    .general {
-        columns: 3;
+    .general__container {
+        flex-wrap: wrap;
     }
-}
+    .general__col {
+        width: 50%;
+    }
 
-@media (max-width: 900px) {
-    .general {
-        columns: 2;
+    .general__item {
+        padding: 5px;
     }
+
+    .general__item_l {
+        height: 500px;
+    }
+
+    .general__item_s {
+        height: 500px;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -113,24 +223,48 @@ img {
     .title {
         font-size: 64px;
     }
-}
 
-@media (max-width: 800px) {
+    .general__col {
+        width: 100%;
+    }
+
     .footer__help {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .footer__name {
-        font-size: 12px;
+        font-size: 14px;
     }
+
 }
+
+
+
+@media (max-width: 400px) {
+
+}
+
 
 @media (max-width: 480px) {
-    .footer__help {
+   /* .footer__help {
         font-size: 10px;
+    }*/
+
+  /*  .footer__name {
+        font-size: 10px;
+    }*/
+
+    .footer {
+        display: grid;
     }
 
-    .footer__name {
-        font-size: 10px;
+    .general__item_l {
+        height: 400px;
     }
+
+    .general__item_s {
+        height: 350px;
+    }
+
+
 }

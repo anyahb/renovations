@@ -1,0 +1,823 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: winona;
+    src: url("./fonts/Willona_Script.ttf");
+}
+
+
+@font-face {
+    font-family: circe;
+    src: url("./fonts/Circe-Regular.ttf");
+}
+
+@font-face {
+    font-family: afrah-light;
+    src: url("./fonts/Afrah-Light.ttf");
+}
+
+@font-face {
+    font-family: abha-reg;
+    src: url("./fonts/AbhayaLibre-Regular.ttf");
+}
+
+@font-face {
+    font-family: abha-bold;
+    src: url("./fonts/AbhayaLibre-Bold.ttf");
+}
+
+
+.info {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.navigation {
+    display: flex;
+    position: relative;
+}
+
+
+
+.navigation__elems {
+    color: #395186;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    font-family: abha-reg;
+    font-size: 18px;
+    margin: 20px;
+    height: 70px;
+}
+
+.footer {
+    background: #395186;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer__name {
+    width: 50%;
+    padding-left: 20px;
+    font-size: 16px;
+    color: white;
+    font-family: circe;
+}
+
+
+.footer__help {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: white;
+    font-family: circe;
+}
+
+.poster {
+    background-image: url("./img/table.png");
+    height: 700px;
+    width: 50%;
+    -webkit-background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    height: 180px;
+    width: 790px;
+
+    top: 60%;
+    left: 10%;
+    background-image: url(./img/main_title.png);
+}
+
+.button {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    background: #395186;
+    border-radius: 60px;
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    left: 10%;
+    font-family: abha-reg;
+}
+
+.general {
+
+}
+
+.general__background {
+    background-image: url(./img/back-one.png);
+    -webkit-background-size: cover;
+    height: 600px;
+    border-radius: 5px;
+}
+
+
+.general__title {
+    font-size: 128px;
+    display: flex;
+    font-family: winona;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+
+.cabinet {
+    height: 140px;
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    display: grid;
+    padding: 20px;
+}
+
+.vanity {
+    height: 140px;
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    display: grid;
+}
+
+.cabinet__title {
+    font-size: 24px;
+    font-family: abha-reg;
+    font-weight: 700;
+}
+
+.cabinet__test {
+    font-size: 24px;
+    font-family: abha-reg;
+}
+
+
+.vanity__title {
+    font-size: 24px;
+    font-family: abha-reg;
+    font-weight: 700;
+}
+
+.vanity__test {
+    font-size: 24px;
+    font-family: abha-reg;
+}
+
+.general__container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+}
+
+.general__services {
+    height: 100%;
+    padding-top: 50px;
+}
+
+
+.before-after__container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.test {
+    display: flex;
+    width: 100%;
+}
+
+.compliment-3 {
+    width: 300px;
+}
+
+.icon {
+    display: grid;
+    width: 10%;
+    margin: 5%;
+}
+
+.compliment {
+    display: grid;
+    margin: 5%;
+    font-family: abha-reg;
+    font-size: 16px;
+}
+
+.why-us {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.why-us__background {
+    background-image: url(./img/flowers.png);
+    -webkit-background-size: cover;
+    height: 500px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check {
+    margin: 50px;
+}
+
+.test {
+    display: flex;
+    width: 400px;
+    background: white;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.test__container {
+    display: flex;
+    width: 400px;
+    background: white;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.button-1 {
+    height: 50px;
+    width: 100px;
+    background: #395186;
+    border-radius: 60px;
+    font-size: 20px;
+    border: none;
+    left: 10%;
+    color: white;
+    font-family: abha-reg;
+}
+
+.why-us__container {
+    display: grid;
+    height: 100%;
+    align-content: space-evenly;
+}
+
+.button__container {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials {
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.services {
+    background-image: url("./img/back-one.png");
+    -webkit-background-size: cover;
+    height: 500px;
+    width: 90%;
+
+}
+
+.general {
+    display: grid;
+    height: 100%;
+    align-content: center;
+}
+
+
+.services__container {
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.before-after__container {
+    padding-top: 50px;
+    width: 90%;
+}
+
+.before-after {
+    display: flex;
+    justify-content: center;
+}
+
+.services__title {
+    display: flex;
+    justify-content: center;
+    font-size: 128px;
+    font-family: winona;
+    padding-bottom: 50px;
+}
+
+.images {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.images__title1 {
+    text-align: center;
+    font-family: abha-bold;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.images__title2 {
+    text-align: center;
+    font-family: abha-bold;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.group1 {
+    width: 50%;
+    background: white;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.group2 {
+    width: 50%;
+    background: white;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.images__text1 {
+    font-family: 'afrah-light';
+    margin: 10px;
+}
+
+.images__text2 {
+    font-family: 'afrah-light';
+    margin: 10px;
+}
+
+
+.testimonials__el1 {
+    background-image: url("./img/testim.jpg");
+    -webkit-background-size: cover;
+    height: 400px;
+    width: 330px;
+}
+
+.testimonials__el2 {
+    background-image: url("./img/testimon.jpg");
+    -webkit-background-size: cover;
+    height: 400px;
+    width: 330px;
+}
+
+.testimonials__el3 {
+    background-image: url("./img/testimon3.png");
+    -webkit-background-size: cover;
+    height: 400px;
+    width: 330px;
+}
+
+.testimonials__title {
+    display: flex;
+    justify-content: center;
+    font-size: 128px;
+    font-family: winona;
+}
+
+.testimonials__pics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background: #395186;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+
+/*.footer__help {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    width: 50%;
+    padding-left: 5%;
+    font-size: 16px;
+    color: white;
+    font-family: abha-reg;
+}*/
+
+/*.footer__name {
+    width: 50%;
+    padding-left: 5%;
+    font-size: 16px;
+    color: white;
+    font-family: abha-reg;
+}*/
+
+.description {
+    position: absolute;
+    top: 35%;
+    width: 20%;
+    padding-left: 5%;
+    font-family: afrah-light;
+    font-size: 24px;
+}
+
+.why-us__title {
+    display: flex;
+    justify-content: center;
+    font-size: 128px;
+    font-family: winona;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .description{
+        font-size: 24px;
+    }
+
+    .poster {
+        width: 100%;
+        height: 700px;
+    }
+
+    .testimonials__pics {
+        display: grid;
+        justify-content: center;
+    }
+
+    .testimonials {
+        display: grid;
+    }
+
+    .centered {
+        display: none;
+    }
+
+
+
+    .testimonials__el1 {
+        height: 600px;
+        width: 500px;
+    }
+
+    .testimonials__el2 {
+        height: 600px;
+        width: 500px;
+    }
+
+    .testimonials__el3 {
+        height: 600px;
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .poster {
+        height: 400px;
+    }
+
+    .button {
+        font-size: 12px;
+    }
+
+    .general__services {
+        padding-top: unset;
+    }
+
+
+    .testimonials__el1 {
+        height: 350px;
+        width: 300px;
+    }
+
+    .testimonials__el2 {
+        height: 350px;
+        width: 300px;
+    }
+
+    .testimonials__el3 {
+        height: 350px;
+        width: 300px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .poster {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .images {
+        display: grid;
+        align-content: space-evenly;
+
+    }
+
+    .general {
+        align-content: unset;
+
+    }
+
+    .group1 {
+        width: 350px;
+    }
+
+    .group2 {
+        width: 350px;
+    }
+
+    .services__title {
+        padding: unset;
+    }
+
+    .testimonials__title {
+        font-size: 100px;
+    }
+
+    .navigation__elems {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+
+    .navigation__elems {
+        margin: unset;
+        height: 50px;
+    }
+
+    .navigation {
+        display: grid;
+    }
+
+    .description {
+        font-size: 18px;
+        color: white;
+        top: 70%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .group1 {
+        width: 250px;
+    }
+
+    .group2 {
+        width: 250px;
+    }
+
+    .button{
+        font-size: 14px;
+    }
+
+    .testimonials__title {
+        font-size: 60px;
+    }
+
+    .footer {
+        display: grid;
+    }
+
+    .footer__name {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .footer__help {
+        font-size: 14px;
+        width: 100%;
+    }
+
+  /*  .footer__name{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .footer__help{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .footer {
+        display: grid;
+        width: 100%;
+    }*/
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .description {
+        color: white;
+    }
+
+    .testimonials {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .services__title {
+        font-size: 64px;
+        height: 100px;
+        align-items: end;
+    }
+
+    .images {
+        height: 300px;
+    }
+
+    .before-after__container {
+        display: grid;
+    }
+
+
+    .button {
+        height: 30px;
+    }
+
+    .button-1 {
+        width: 100px;
+        height: 30px;
+
+    }
+
+    .compliment {
+        font-size: 12px;
+    }
+
+
+
+
+    .description {
+        width: 50%;
+    }
+
+
+    .centered {
+        display: none;
+    }
+
+
+    .description {
+        top: 70%;
+        font-size: 14px;
+    }
+
+    .general__title {
+        font-size: 64px;
+    }
+
+    .vanity__title {
+        font-size: 14px;
+    }
+
+
+    .cabinet__title {
+        font-size: 14px;
+    }
+
+    .vanity {
+        width: 30%;
+        height: 160px;
+
+    }
+
+    .cabinet {
+        width: 30%;
+        height: 160px;
+
+    }
+
+    .cabinet__text {
+        font-size: 12px;
+    }
+
+    .test__container {
+        width: 250px;
+        height: 180px;
+    }
+
+    .compliment-3 {
+        width: 100%;
+    }
+
+
+
+    .testimonials__pics {
+        display: grid;
+        justify-content: center;
+    }
+
+    .testimonials {
+        display: grid;
+    }
+
+/*    .footer__name {
+        font-size: 12px;
+        width: 50%;
+    }
+
+    .footer__help {
+        font-size: 12px;
+        width: 50%;
+    }*/
+
+    .check {
+        margin: unset;
+    }
+
+
+
+
+
+    .why-us {
+        padding-top: 30px;
+    }
+
+    .before-after__container {
+        padding-top: 30px;
+    }
+
+    .services__container {
+        padding-top: 30px;
+    }
+
+  /*  .footer {
+        height: 50px;
+        width: 100%;
+    }*/
+
+
+    .why-us__title {
+        font-size: 64px;
+    }
+
+    .vanity__text {
+        font-size: 12px;
+    }
+
+    .testimonials__el1 {
+        height: 350px;
+        width: 300px;
+    }
+
+    .testimonials__el2 {
+        height: 350px;
+        width: 300px;
+    }
+
+    .testimonials__el3 {
+        height: 350px;
+        width: 300px;
+    }
+
+    .images__text1 {
+        font-size: 14px;
+    }
+
+    .images__text2 {
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .footer__name {
+        font-size: 12px;
+    }
+
+    .footer__help {
+        font-size: 12px;
+    }
+}
