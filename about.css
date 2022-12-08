@@ -51,17 +51,11 @@ body {
     font-family: abha-reg;
     font-size: 18px;
     margin: 20px;
+    height: 70px;
 }
 
 .info {
-   /* background-image: url(./gallery-img/new1.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    display: flex;
-    width: 100%;
-    min-height: 80vh;*/
+
 }
 
 .imgg{
@@ -138,6 +132,11 @@ body {
     width: 60%;
     display: flex;
     justify-content: center;
+}
+
+.el{
+    text-decoration: none;
+    color: #395186;
 }
 
 

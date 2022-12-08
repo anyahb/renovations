@@ -89,31 +89,33 @@ body {
     -webkit-background-size: cover;
 }
 
-.centered {
-    position: absolute;
-    height: 180px;
-    width: 790px;
 
-    top: 60%;
+.central-title{
+    top: 50%;
     left: 10%;
-    background-image: url(./img/main_title.png);
+    font-size: 350px;
+    position: absolute;
+    font-family: winona;
 }
 
 .button {
     position: absolute;
     bottom: 20px;
-    color: white;
     background: #395186;
     border-radius: 60px;
-    font-size: 20px;
     border: none;
     height: 50px;
     left: 10%;
+    text-decoration: none;
     font-family: abha-reg;
+    color: white;
+    font-size: 20px;
 }
 
-.general {
 
+.el{
+    text-decoration: none;
+    color: #395186;
 }
 
 .general__background {
@@ -258,6 +260,8 @@ body {
     background: white;
     height: 200px;
     border-radius: 10px;
+    padding-top: 20px;
+
 }
 
 .button-1 {
@@ -417,26 +421,6 @@ body {
     display: flex;
 }
 
-
-/*.footer__help {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 5%;
-    width: 50%;
-    padding-left: 5%;
-    font-size: 16px;
-    color: white;
-    font-family: abha-reg;
-}*/
-
-/*.footer__name {
-    width: 50%;
-    padding-left: 5%;
-    font-size: 16px;
-    color: white;
-    font-family: abha-reg;
-}*/
-
 .description {
     position: absolute;
     top: 35%;
@@ -474,10 +458,6 @@ body {
         display: grid;
     }
 
-    .centered {
-        display: none;
-    }
-
 
 
     .testimonials__el1 {
@@ -496,6 +476,12 @@ body {
     }
 }
 
+
+@media screen and (max-width: 1200px) {
+    .central {
+        top: 60%;
+    }
+}
 
 @media screen and (max-width: 360px) {
     .poster {
@@ -534,9 +520,16 @@ body {
     .poster {
         height: 400px;
     }
+
 }
 
 @media screen and (max-width: 900px) {
+
+    .central{
+        top: 20%;
+    }
+
+
     .images {
         display: grid;
         align-content: space-evenly;
@@ -618,20 +611,6 @@ body {
         width: 100%;
     }
 
-  /*  .footer__name{
-        font-size: 14px;
-        width: 100%;
-    }
-
-    .footer__help{
-        font-size: 14px;
-        width: 100%;
-    }
-
-    .footer {
-        display: grid;
-        width: 100%;
-    }*/
 }
 
 
@@ -683,9 +662,9 @@ body {
     }
 
 
-    .centered {
+ /*   .centered {
         display: none;
-    }
+    }*/
 
 
     .description {
@@ -742,15 +721,6 @@ body {
         display: grid;
     }
 
-/*    .footer__name {
-        font-size: 12px;
-        width: 50%;
-    }
-
-    .footer__help {
-        font-size: 12px;
-        width: 50%;
-    }*/
 
     .check {
         margin: unset;
