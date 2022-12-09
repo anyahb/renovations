@@ -92,7 +92,7 @@ body {
 
 .central-title{
     top: 50%;
-    left: 10%;
+    left: 15%;
     font-size: 350px;
     position: absolute;
     font-family: winona;
@@ -136,46 +136,16 @@ body {
 }
 
 
-.cabinet {
-    height: 140px;
-    width: 40%;
-    background-color: white;
-    border-radius: 5px;
-    display: grid;
-    padding: 20px;
-}
-
-.vanity {
-    height: 140px;
-    width: 40%;
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px;
-    display: grid;
-}
-
-.cabinet__title {
-    font-size: 24px;
-    font-family: abha-reg;
-    font-weight: 700;
-}
-
-.cabinet__test {
-    font-size: 24px;
-    font-family: abha-reg;
-}
 
 
-.vanity__title {
-    font-size: 24px;
-    font-family: abha-reg;
-    font-weight: 700;
-}
 
-.vanity__test {
-    font-size: 24px;
-    font-family: abha-reg;
-}
+
+
+
+
+
+
+
 
 .general__container {
     display: flex;
@@ -333,14 +303,14 @@ body {
     padding-bottom: 50px;
 }
 
-.images {
+.kitchen {
     display: flex;
     width: 100%;
     justify-content: center;
     justify-content: space-evenly;
 }
 
-.images__title1 {
+.kitchen__title {
     text-align: center;
     font-family: abha-bold;
     font-weight: bold;
@@ -348,7 +318,7 @@ body {
     font-size: 20px;
 }
 
-.images__title2 {
+.vanity__title {
     text-align: center;
     font-family: abha-bold;
     font-weight: bold;
@@ -356,26 +326,26 @@ body {
     font-size: 20px;
 }
 
-.group1 {
+.cabinet {
     width: 50%;
     background: white;
     width: 400px;
     border-radius: 5px;
 }
 
-.group2 {
+.vanity {
     width: 50%;
     background: white;
     width: 400px;
     border-radius: 5px;
 }
 
-.images__text1 {
+.kitchen__text {
     font-family: 'afrah-light';
     margin: 10px;
 }
 
-.images__text2 {
+.vanity__text {
     font-family: 'afrah-light';
     margin: 10px;
 }
@@ -427,7 +397,7 @@ body {
     width: 20%;
     padding-left: 5%;
     font-family: afrah-light;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .why-us__title {
@@ -439,10 +409,6 @@ body {
 
 
 @media screen and (max-width: 1000px) {
-
-    .description{
-        font-size: 24px;
-    }
 
     .poster {
         width: 100%;
@@ -478,9 +444,7 @@ body {
 
 
 @media screen and (max-width: 1200px) {
-    .central {
-        top: 60%;
-    }
+
 }
 
 @media screen and (max-width: 360px) {
@@ -513,6 +477,7 @@ body {
     }
 
 
+
 }
 
 
@@ -525,12 +490,12 @@ body {
 
 @media screen and (max-width: 900px) {
 
-    .central{
-        top: 20%;
+    .central-title{
+        top: 30%;
     }
 
 
-    .images {
+    .kitchen {
         display: grid;
         align-content: space-evenly;
 
@@ -541,11 +506,11 @@ body {
 
     }
 
-    .group1 {
+    .cabinet {
         width: 350px;
     }
 
-    .group2 {
+    .vanity {
         width: 350px;
     }
 
@@ -581,11 +546,11 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    .group1 {
+    .cabinet {
         width: 250px;
     }
 
-    .group2 {
+    .vanity {
         width: 250px;
     }
 
@@ -631,7 +596,7 @@ body {
         align-items: end;
     }
 
-    .images {
+    .kitchen {
         height: 300px;
     }
 
@@ -674,31 +639,6 @@ body {
 
     .general__title {
         font-size: 64px;
-    }
-
-    .vanity__title {
-        font-size: 14px;
-    }
-
-
-    .cabinet__title {
-        font-size: 14px;
-    }
-
-    .vanity {
-        width: 30%;
-        height: 160px;
-
-    }
-
-    .cabinet {
-        width: 30%;
-        height: 160px;
-
-    }
-
-    .cabinet__text {
-        font-size: 12px;
     }
 
     .test__container {
@@ -752,9 +692,7 @@ body {
         font-size: 64px;
     }
 
-    .vanity__text {
-        font-size: 12px;
-    }
+
 
     .testimonials__el1 {
         height: 350px;
@@ -771,11 +709,11 @@ body {
         width: 300px;
     }
 
-    .images__text1 {
+    .kitchen__text {
         font-size: 14px;
     }
 
-    .images__text2 {
+    .vanity__text {
         font-size: 14px;
     }
 
