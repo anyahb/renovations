@@ -41,7 +41,6 @@ body {
 }
 
 
-
 .navigation__elems {
     color: #395186;
     display: flex;
@@ -80,7 +79,7 @@ body {
     font-family: circe;
 }
 
-.poster {
+.navigation__poster {
     background-image: url("./img/table.png");
     height: 700px;
     width: 50%;
@@ -88,7 +87,7 @@ body {
 }
 
 
-.central-title{
+.navigation__title{
     top: 50%;
     left: 15%;
     font-size: 350px;
@@ -96,7 +95,7 @@ body {
     font-family: winona;
 }
 
-.button {
+.navigation__button {
     position: absolute;
     bottom: 20px;
     background: #395186;
@@ -111,7 +110,7 @@ body {
 }
 
 
-.el{
+.navigation__el{
     text-decoration: none;
     color: #395186;
 }
@@ -122,7 +121,6 @@ body {
     height: 600px;
     border-radius: 5px;
 }
-
 
 .general__title {
     font-size: 128px;
@@ -159,17 +157,13 @@ body {
     width: 100%;
 }
 
-.compliment-3 {
-    width: 300px;
-}
-
-.icon {
+.why-us__icons {
     display: grid;
     width: 10%;
     margin: 5%;
 }
 
-.compliment {
+.why-us__compliments {
     display: grid;
     margin: 5%;
     font-family: abha-reg;
@@ -211,7 +205,7 @@ body {
     align-items: center;
 }
 
-.test__container {
+.why-us__pros {
     display: flex;
     width: 400px;
     background: white;
@@ -221,7 +215,7 @@ body {
 
 }
 
-.button-1 {
+.why-us__button {
     height: 50px;
     width: 100px;
     background: #395186;
@@ -239,12 +233,12 @@ body {
     align-content: space-evenly;
 }
 
-.button__container {
+.why-us__buttons {
     display: flex;
     justify-content: center;
 }
 
-.services {
+.services__container {
     background-image: url("./img/back-one.png");
     -webkit-background-size: cover;
     height: 500px;
@@ -252,14 +246,14 @@ body {
 
 }
 
-.general {
+.services__general {
     display: grid;
     height: 100%;
     align-content: center;
 }
 
 
-.services__container {
+.services {
     padding-top: 50px;
     justify-content: center;
     display: flex;
@@ -283,7 +277,7 @@ body {
     padding-bottom: 50px;
 }
 
-.kitchen {
+.services__kitchen {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -305,7 +299,7 @@ body {
     font-size: 20px;
 }
 
-.cabinet {
+.kitchen__container {
     background: white;
     width: 400px;
     border-radius: 5px;
@@ -347,7 +341,7 @@ body {
     display: flex;
 }
 
-.description {
+.navigation__description {
     position: absolute;
     top: 35%;
     width: 20%;
@@ -381,7 +375,7 @@ body {
 
 @media screen and (max-width: 1000px) {
 
-    .poster {
+    .navigation__poster {
         width: 100%;
         height: 700px;
     }
@@ -394,11 +388,11 @@ body {
 }
 
 @media screen and (max-width: 360px) {
-    .poster {
+    .navigation__poster {
         height: 400px;
     }
 
-    .button {
+    .navigation__button {
         font-size: 12px;
     }
 
@@ -409,7 +403,7 @@ body {
 
 
 @media screen and (max-width: 500px) {
-    .poster {
+    .navigation__poster {
         height: 400px;
     }
 
@@ -421,23 +415,23 @@ body {
         font-size: 20px;
     }
 
-    .central-title{
+    .navigation__title{
         top: 30%;
     }
 
 
-    .kitchen {
+    .services__kitchen {
         display: grid;
         align-content: space-evenly;
 
     }
 
-    .general {
+    .services__general {
         align-content: unset;
 
     }
 
-    .cabinet {
+    .kitchen__container {
         width: 350px;
     }
 
@@ -468,7 +462,7 @@ body {
         display: grid;
     }
 
-    .description {
+    .navigation__description {
         font-size: 18px;
         color: white;
         top: 70%;
@@ -481,7 +475,7 @@ body {
         font-size: 16px;
     }
 
-    .cabinet {
+    .kitchen__container {
         width: 250px;
     }
 
@@ -489,7 +483,7 @@ body {
         width: 250px;
     }
 
-    .button{
+    .navigation__button {
         font-size: 14px;
     }
 
@@ -520,7 +514,7 @@ body {
         font-size: 18px;
     }
 
-    .description {
+    .navigation__description {
         color: white;
     }
 
@@ -530,7 +524,7 @@ body {
         align-items: end;
     }
 
-    .kitchen {
+    .services__kitchen {
         height: 300px;
     }
 
@@ -539,26 +533,26 @@ body {
     }
 
 
-    .button {
+    .navigation__button {
         height: 30px;
     }
 
-    .button-1 {
+    .why-us__button {
         width: 100px;
         height: 30px;
 
     }
 
-    .compliment {
+    .why-us__compliment {
         font-size: 12px;
     }
 
-    .description {
+    .navigation__description {
         width: 50%;
     }
 
 
-    .description {
+    .navigation__description {
         top: 70%;
         font-size: 14px;
     }
@@ -567,13 +561,9 @@ body {
         font-size: 64px;
     }
 
-    .test__container {
+    .why-us__pros {
         width: 250px;
         height: 180px;
-    }
-
-    .compliment-3 {
-        width: 100%;
     }
 
     .testimonials__pics {
@@ -593,7 +583,7 @@ body {
         padding-top: 30px;
     }
 
-    .services__container {
+    .services {
         padding-top: 30px;
     }
 
