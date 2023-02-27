@@ -366,14 +366,14 @@ body {
 .block {
     border-left: 5px solid #FFCC00;
     margin: 50px;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'afrah-light';
 }
-.quote-text {
-    font-size: 25px;
+.block__quote-text {
+    font-size: 22px;
 }
 
-.author {
+.block__author {
     text-align: right;
     white-space: pre-wrap;
     color: #395186;
@@ -417,7 +417,7 @@ body {
 
 @media screen and (max-width: 900px) {
 
-    .quote-text {
+    .block__quote-text {
         font-size: 20px;
     }
 
@@ -477,7 +477,7 @@ body {
 
 @media screen and (max-width: 480px) {
 
-    .author {
+    .block__author {
         font-size: 16px;
     }
 
@@ -516,7 +516,7 @@ body {
 
 @media screen and (max-width: 600px) {
 
-    .quote-text {
+    .block__quote-text {
         font-size: 18px;
     }
 
@@ -621,7 +621,7 @@ body {
 
 @media (max-width: 480px) {
 
-    .quote-text {
+    .block__quote-text {
         font-size: 14px;
     }
 }
