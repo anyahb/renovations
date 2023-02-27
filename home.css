@@ -369,7 +369,7 @@ body {
     background-image: url("./img/testimon3.png");
     -webkit-background-size: cover;
     height: 400px;
-    width: 330px;
+    width: 400px;
 }
 
 .testimonials__title {
@@ -444,6 +444,7 @@ body {
 
 
 @media screen and (max-width: 1200px) {
+
 
 }
 
