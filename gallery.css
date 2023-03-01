@@ -237,3 +237,12 @@ img {
 
 
 }
+
+@media (max-width: 360px) {
+    .general__img {
+        height: 300px;
+    }
+}
+
+
+

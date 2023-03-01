@@ -3,8 +3,6 @@ body {
     box-sizing: border-box;
 }
 
-
-
 @font-face {
     font-family: winona;
     src: url("./fonts/Willona_Script.ttf");
@@ -306,7 +304,6 @@ body {
 .kitchen {
     display: flex;
     width: 100%;
-    justify-content: center;
     justify-content: space-evenly;
 }
 
@@ -327,14 +324,12 @@ body {
 }
 
 .cabinet {
-    width: 50%;
     background: white;
     width: 400px;
     border-radius: 5px;
 }
 
 .vanity {
-    width: 50%;
     background: white;
     width: 400px;
     border-radius: 5px;
@@ -348,28 +343,6 @@ body {
 .vanity__text {
     font-family: 'afrah-light';
     margin: 10px;
-}
-
-
-.testimonials__el1 {
-    background-image: url("./img/testim.jpg");
-    -webkit-background-size: cover;
-    height: 400px;
-    width: 330px;
-}
-
-.testimonials__el2 {
-    background-image: url("./img/testimon.jpg");
-    -webkit-background-size: cover;
-    height: 400px;
-    width: 330px;
-}
-
-.testimonials__el3 {
-    background-image: url("./img/testimon3.png");
-    -webkit-background-size: cover;
-    height: 400px;
-    width: 330px;
 }
 
 .testimonials__title {
@@ -406,6 +379,25 @@ body {
     font-size: 128px;
     font-family: winona;
 }
+
+
+.block {
+    border-left: 5px solid #FFCC00;
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'afrah-light';
+}
+.block__quote-text {
+    font-size: 22px;
+}
+
+.block__author {
+    text-align: right;
+    white-space: pre-wrap;
+    color: #395186;
+    font-size: 24px;
+}
+
 
 
 @media screen and (max-width: 1000px) {
@@ -490,6 +482,14 @@ body {
 
 @media screen and (max-width: 900px) {
 
+.block__author {
+    font-size: 20px;
+}
+
+    .block__quote-text {
+        font-size: 18px;
+    }
+
     .central-title{
         top: 30%;
     }
@@ -527,7 +527,6 @@ body {
         padding-top: 10px;
     }
 
-
     .navigation__elems {
         margin: unset;
         height: 50px;
@@ -543,40 +542,21 @@ body {
         top: 70%;
     }
 
-}
-
-@media screen and (max-width: 480px) {
-    .cabinet {
-        width: 250px;
+    .description {
+        width: 50%;
     }
 
-    .vanity {
-        width: 250px;
+    .button {
+        font-size: 18px;
     }
 
-    .button{
-        font-size: 14px;
-    }
-
-    .testimonials__title {
-        font-size: 60px;
-    }
-
-    .footer {
-        display: grid;
-    }
-
-    .footer__name {
-        font-size: 14px;
-        width: 100%;
-    }
-
-    .footer__help {
-        font-size: 14px;
-        width: 100%;
+    .button-1 {
+        font-size: 18px;
     }
 
 }
+
+
 
 
 @media screen and (max-width: 600px) {
@@ -606,12 +586,12 @@ body {
 
 
     .button {
-        height: 30px;
+        height: 40px;
     }
 
     .button-1 {
         width: 100px;
-        height: 30px;
+        height: 40px;
 
     }
 
@@ -619,18 +599,9 @@ body {
         font-size: 12px;
     }
 
-
-
-
     .description {
         width: 50%;
     }
-
-
- /*   .centered {
-        display: none;
-    }*/
-
 
     .description {
         top: 70%;
@@ -650,8 +621,6 @@ body {
         width: 100%;
     }
 
-
-
     .testimonials__pics {
         display: grid;
         justify-content: center;
@@ -661,14 +630,9 @@ body {
         display: grid;
     }
 
-
     .check {
         margin: unset;
     }
-
-
-
-
 
     .why-us {
         padding-top: 30px;
@@ -682,17 +646,9 @@ body {
         padding-top: 30px;
     }
 
-  /*  .footer {
-        height: 50px;
-        width: 100%;
-    }*/
-
-
     .why-us__title {
         font-size: 64px;
     }
-
-
 
     .testimonials__el1 {
         height: 350px;
@@ -717,10 +673,6 @@ body {
         font-size: 14px;
     }
 
-
-}
-
-@media screen and (max-width: 600px) {
     .footer__name {
         font-size: 12px;
     }
@@ -728,4 +680,51 @@ body {
     .footer__help {
         font-size: 12px;
     }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .block__quote-text {
+        font-size: 14px;
+    }
+
+    .block__author {
+        font-size: 16px;
+    }
+
+    .cabinet {
+        width: 250px;
+    }
+
+    .vanity {
+        width: 250px;
+    }
+
+    .button{
+        font-size: 14px;
+    }
+
+    .button-1{
+        font-size: 14px;
+    }
+
+    .testimonials__title {
+        font-size: 60px;
+    }
+
+    .footer {
+        display: grid;
+    }
+
+    .footer__name {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .footer__help {
+        font-size: 14px;
+        width: 100%;
+    }
+
 }
