@@ -80,7 +80,7 @@ body {
     font-family: circe;
 }
 
-.poster {
+.navigation__poster {
     background-image: url("./img/table.png");
     height: 700px;
     width: 50%;
@@ -88,7 +88,7 @@ body {
 }
 
 
-.central-title{
+.navigation__title{
     top: 50%;
     left: 15%;
     font-size: 350px;
@@ -96,7 +96,7 @@ body {
     font-family: winona;
 }
 
-.button {
+.navigation__button {
     position: absolute;
     bottom: 20px;
     background: #395186;
@@ -108,10 +108,11 @@ body {
     font-family: abha-reg;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 
-.el{
+.navigation__item{
     text-decoration: none;
     color: #395186;
 }
@@ -170,17 +171,14 @@ body {
     width: 100%;
 }
 
-.compliment-3 {
-    width: 300px;
-}
 
-.icon {
+.icons {
     display: grid;
     width: 10%;
     margin: 5%;
 }
 
-.compliment {
+.compliments {
     display: grid;
     margin: 5%;
     font-family: abha-reg;
@@ -222,17 +220,16 @@ body {
     align-items: center;
 }
 
-.test__container {
+.why-us__offers {
     display: flex;
     width: 400px;
     background: white;
     height: 200px;
     border-radius: 10px;
     padding-top: 20px;
-
 }
 
-.button-1 {
+.why-us__btn {
     height: 50px;
     width: 100px;
     background: #395186;
@@ -242,6 +239,7 @@ body {
     left: 10%;
     color: white;
     font-family: abha-reg;
+    cursor: pointer;
 }
 
 .why-us__container {
@@ -250,7 +248,7 @@ body {
     align-content: space-evenly;
 }
 
-.button__container {
+.why-us__button {
     display: flex;
     justify-content: center;
 }
@@ -262,12 +260,11 @@ body {
     padding-bottom: 50px;
 }
 
-.services {
+.services__container {
     background-image: url("./img/back-one.png");
     -webkit-background-size: cover;
     height: 500px;
     width: 90%;
-
 }
 
 .general {
@@ -277,7 +274,7 @@ body {
 }
 
 
-.services__container {
+.services {
     padding-top: 50px;
     justify-content: center;
     display: flex;
@@ -323,7 +320,7 @@ body {
     font-size: 20px;
 }
 
-.cabinet {
+.kitchen__cabinet {
     background: white;
     width: 400px;
     border-radius: 5px;
@@ -364,7 +361,7 @@ body {
     display: flex;
 }
 
-.description {
+.navigation__description {
     position: absolute;
     top: 35%;
     width: 20%;
@@ -402,7 +399,7 @@ body {
 
 @media screen and (max-width: 1000px) {
 
-    .poster {
+    .navigation__poster {
         width: 100%;
         height: 700px;
     }
@@ -434,17 +431,12 @@ body {
     }
 }
 
-
-@media screen and (max-width: 1200px) {
-
-}
-
 @media screen and (max-width: 360px) {
-    .poster {
+    .navigation__poster {
         height: 400px;
     }
 
-    .button {
+    .navigation__button {
         font-size: 12px;
     }
 
@@ -467,30 +459,25 @@ body {
         height: 350px;
         width: 300px;
     }
-
-
-
 }
 
-
 @media screen and (max-width: 500px) {
-    .poster {
+    .navigation__poster {
         height: 400px;
     }
 
 }
 
 @media screen and (max-width: 900px) {
-
-.block__author {
+    .block__author {
     font-size: 20px;
-}
+    }
 
     .block__quote-text {
         font-size: 18px;
     }
 
-    .central-title{
+    .navigation__title{
         top: 30%;
     }
 
@@ -506,7 +493,7 @@ body {
 
     }
 
-    .cabinet {
+    .kitchen__cabinet {
         width: 350px;
     }
 
@@ -519,7 +506,7 @@ body {
     }
 
     .testimonials__title {
-        font-size: 100px;
+        font-size: 90px;
     }
 
     .navigation__elems {
@@ -536,21 +523,21 @@ body {
         display: grid;
     }
 
-    .description {
+    .navigation__description {
         font-size: 18px;
         color: white;
         top: 70%;
     }
 
-    .description {
+    .navigation__description {
         width: 50%;
     }
 
-    .button {
+    .navigation__button {
         font-size: 18px;
     }
 
-    .button-1 {
+    .why-us__btn {
         font-size: 18px;
     }
 
@@ -561,7 +548,7 @@ body {
 
 @media screen and (max-width: 600px) {
 
-    .description {
+    .navigation__description {
         color: white;
     }
 
@@ -585,25 +572,25 @@ body {
     }
 
 
-    .button {
+    .navigation__button {
         height: 40px;
     }
 
-    .button-1 {
+    .why-us__btn {
         width: 100px;
         height: 40px;
 
     }
 
-    .compliment {
+    .compliments {
         font-size: 12px;
     }
 
-    .description {
+    .navigation__description {
         width: 50%;
     }
 
-    .description {
+    .navigation__description {
         top: 70%;
         font-size: 14px;
     }
@@ -612,13 +599,9 @@ body {
         font-size: 64px;
     }
 
-    .test__container {
+    .why-us__offers {
         width: 250px;
         height: 180px;
-    }
-
-    .compliment-3 {
-        width: 100%;
     }
 
     .testimonials__pics {
@@ -642,7 +625,7 @@ body {
         padding-top: 30px;
     }
 
-    .services__container {
+    .services {
         padding-top: 30px;
     }
 
@@ -693,7 +676,7 @@ body {
         font-size: 16px;
     }
 
-    .cabinet {
+    .kitchen__cabinet {
         width: 250px;
     }
 
@@ -701,11 +684,11 @@ body {
         width: 250px;
     }
 
-    .button{
+    .navigation__button{
         font-size: 14px;
     }
 
-    .button-1{
+    .why-us__btn{
         font-size: 14px;
     }
 
