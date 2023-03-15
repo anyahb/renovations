@@ -344,10 +344,11 @@ body {
 .navigation__description {
     position: absolute;
     top: 35%;
-    width: 20%;
-    padding-left: 5%;
+    width: 30%;
     font-family: afrah-light;
     font-size: 20px;
+    margin: 20px;
+    padding: 10px;
 }
 
 .why-us__title {
@@ -387,27 +388,7 @@ body {
 
 }
 
-@media screen and (max-width: 360px) {
-    .navigation__poster {
-        height: 400px;
-    }
 
-    .navigation__button {
-        font-size: 12px;
-    }
-
-    .general__services {
-        padding-top: unset;
-    }
-}
-
-
-@media screen and (max-width: 500px) {
-    .navigation__poster {
-        height: 400px;
-    }
-
-}
 
 @media screen and (max-width: 900px) {
 
@@ -463,59 +444,25 @@ body {
     }
 
     .navigation__description {
-        font-size: 18px;
-        color: white;
+        font-size: 16px;
+        top: 75%;
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navigation__description {
         top: 70%;
     }
 }
 
-@media screen and (max-width: 480px) {
-
-    .block__author {
-        font-size: 16px;
-    }
-
-    .kitchen__container {
-        width: 250px;
-    }
-
-    .vanity {
-        width: 250px;
-    }
-
-    .navigation__button {
-        font-size: 14px;
-    }
-
-    .testimonials__title {
-        font-size: 60px;
-    }
-
-    .footer {
-        display: grid;
-    }
-
-    .footer__name {
-        font-size: 14px;
-        width: 100%;
-    }
-
-    .footer__help {
-        font-size: 14px;
-        width: 100%;
-    }
-
-}
 
 
 @media screen and (max-width: 600px) {
 
     .block__quote-text {
         font-size: 18px;
-    }
-
-    .navigation__description {
-        color: white;
     }
 
     .services__title {
@@ -538,9 +485,9 @@ body {
     }
 
     .why-us__button {
-        width: 100px;
+        width: 80px;
         height: 30px;
-
+        font-size: 18px;
     }
 
     .why-us__compliment {
@@ -548,13 +495,9 @@ body {
     }
 
     .navigation__description {
-        width: 50%;
-    }
-
-
-    .navigation__description {
-        top: 70%;
         font-size: 14px;
+        top: 70%;
+        margin: 10px;
     }
 
     .general__title {
@@ -607,12 +550,88 @@ body {
     .footer__help {
         font-size: 12px;
     }
+
+    .navigation__poster {
+        height: 600px;
+    }
+
 }
 
-@media (max-width: 480px) {
+
+
+@media screen and (max-width: 500px) {
+    .navigation__poster {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .block__author {
+        font-size: 16px;
+    }
+
+    .kitchen__container {
+        width: 250px;
+    }
+
+    .vanity {
+        width: 250px;
+    }
+
+    .navigation__button {
+        font-size: 14px;
+    }
+
+    .testimonials__title {
+        font-size: 60px;
+    }
+
+    .footer {
+        display: grid;
+    }
+
+    .footer__name {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .footer__help {
+        font-size: 14px;
+        width: 100%;
+    }
 
     .block__quote-text {
         font-size: 14px;
     }
+
+    .navigation__description {
+        font-size: 12px;
+    }
+
+    .why-us__button {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+
 }
+
+
+@media screen and (max-width: 360px) {
+    .navigation__poster {
+        height: 400px;
+    }
+
+    .navigation__button {
+        font-size: 12px;
+    }
+
+    .general__services {
+        padding-top: unset;
+    }
+}
+
+
+
 
