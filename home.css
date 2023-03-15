@@ -151,7 +151,6 @@ body {
     justify-content: center;
 }
 
-
 .test {
     display: flex;
     width: 100%;
@@ -457,8 +456,6 @@ body {
     }
 }
 
-
-
 @media screen and (max-width: 600px) {
 
     .block__quote-text {
@@ -556,8 +553,6 @@ body {
     }
 
 }
-
-
 
 @media screen and (max-width: 500px) {
     .navigation__poster {
