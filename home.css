@@ -107,6 +107,7 @@ body {
     font-family: abha-reg;
     color: white;
     font-size: 18px;
+    cursor: pointer;
 }
 
 
@@ -224,6 +225,7 @@ body {
     left: 10%;
     color: white;
     font-family: abha-reg;
+    cursor: pointer;
 }
 
 .why-us__container {
