@@ -1,7 +1,4 @@
-body {
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 @font-face {
     font-family: winona;
@@ -22,6 +19,12 @@ body {
 @font-face {
     font-family: abha-reg;
     src: url("./fonts/AbhayaLibre-Regular.ttf");
+}
+
+body {
+    padding: 0;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .grid-images_green {

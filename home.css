@@ -1,13 +1,7 @@
-body {
-    margin: 0;
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: winona;
     src: url("./fonts/Willona_Script.ttf");
 }
-
 
 @font-face {
     font-family: circe;
@@ -27,6 +21,12 @@ body {
 @font-face {
     font-family: abha-bold;
     src: url("./fonts/AbhayaLibre-Bold.ttf");
+}
+
+body {
+    padding: 0;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 
@@ -345,7 +345,6 @@ body {
 .navigation__description {
     position: absolute;
     top: 35%;
-    width: 30%;
     font-family: afrah-light;
     font-size: 20px;
     margin: 20px;
@@ -375,6 +374,20 @@ body {
     color: #395186;
 }
 
+
+@media screen and (max-width: 1400px) {
+    .navigation__description {
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navigation__title {
+    font-size: 250px;
+    }
+}
+
 @media screen and (max-width: 1000px) {
 
     .navigation__poster {
@@ -399,6 +412,7 @@ body {
 
     .navigation__title{
         top: 30%;
+        font-size: 200px;
     }
 
 
@@ -455,6 +469,10 @@ body {
 @media screen and (max-width: 800px) {
     .navigation__description {
         top: 70%;
+    }
+
+    .navigation__title {
+        font-size: 130px;
     }
 }
 
@@ -610,6 +628,10 @@ body {
         width: 80px;
         height: 30px;
         font-size: 12px;
+    }
+
+    .navigation__title {
+        font-size: 90px;
     }
 
 }
